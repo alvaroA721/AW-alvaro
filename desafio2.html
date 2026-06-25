@@ -1,0 +1,86 @@
+<form action="/enviar" method="POST">
+    <label for="nome">Digite seu nome:</label>
+    <input type="text" id="nome" name="nome" placeholder="Seu nome aqui..." required>
+</form>
+
+<form action="/enviar" method="POST">
+    <label for="nome">Digite sua senha de acesso:</label>
+    <input type="text" id="nome" name="nome" placeholder="Sua senha aqui..." required>
+</form>
+
+<label for="regiao">Escolha sua região:</label>
+<select name="regiao" id="regiao">
+    <option value="kanto">kanto</option>
+    <option value="johto">johto</option>
+    <option value="hoenn">hoenn</option>
+</select><br>
+
+<p>Qual sua tipagem inicial favorita?</p>
+
+        <input type="radio" id="Fogo" name="Fogo" value="Fogo" />
+        <label for="Fogo">fogo</label>
+        <input type="radio" id="planta" name="planta" value="planta" />
+        <label for="planta">Planta</label>
+        <input type="radio" id="agua" name="agua" value="agua" />
+        <label for="agua">Água</label>
+        <br/>
+
+<p>Quais são seus protagonistas favoritos de pokémon?</p>
+
+ <input type="checkbox" id="favoritos" name="protagonistas" value="pokémon">
+<label for="protagonistas">Red</label>
+
+ <input type="checkbox" id="favoritos" name="protagonistas" value="pokémon">
+<label for="protagonistas">Ethan</label>
+
+ <input type="checkbox" id="favoritos" name="protagonistas" value="pokémon">
+<label for="protagonistas">Brendan</label><br>
+
+<label for="observacoes">Observações:</label><br>
+<textarea id="observacoes" name="observacoes" rows="4" cols="50" placeholder="Digite suas observações aqui..."></textarea><br>
+
+<button type="submit">Enviar Formulário</button><br>
+
+<h2>Líderes de Ginásio</h2>
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; text-align: left;">
+    <thead>
+        <tr>
+            <th>Ginásio</th>
+            <th>Líder</th>
+            <th>Tipagem</th>
+            <th>Nome Da Insignia</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Brock</td>
+            <td>Pedra</td>
+            <td>(Boulder Badge)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Misty</td>
+            <td>Água</td>
+            <td>(Cascade Badge)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Lt. Surge</td>
+            <td>Elétrico</td>
+            <td>(Thunder Badge)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Erika</td>
+            <td>Planta</td>
+            <td>(Rainbow Badge)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Koga</td>
+            <td>Veneno</td>
+            <td>(Soul Badge)</td>
+        </tr>
+    </tbody>
+</table>
