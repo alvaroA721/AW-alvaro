@@ -1,21 +1,42 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio2</title><link rel="stylesheet" href="./styles/styles.css">
+
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            /* font-family: 'times new roman', times, serif; */
+            /* font-family:'courier new', courier, monospace; */
+        }
+
+    </style>
+</head>
+<body>
+
+<h1 style="color: rgb(0, 0, 0); background-color: rgb(160, 8, 8);">Cadastro de favoritos</h1>
+
 <form action="/enviar" method="POST">
-    <label for="nome">Digite seu nome:</label>
+    <label for="nome" class="negrito">Digite seu nome:</label>
     <input type="text" id="nome" name="nome" placeholder="Seu nome aqui..." required>
 </form>
 
 <form action="/enviar" method="POST">
-    <label for="nome">Digite sua senha de acesso:</label>
+    <label for="nome" class="negrito">Digite sua senha de acesso:</label>
     <input type="text" id="nome" name="nome" placeholder="Sua senha aqui..." required>
 </form>
 
-<label for="regiao">Escolha sua região:</label>
+<label for="regiao" class="negrito">Escolha sua região:</label>
 <select name="regiao" id="regiao">
     <option value="kanto">kanto</option>
     <option value="johto">johto</option>
     <option value="hoenn">hoenn</option>
 </select><br>
 
-<p>Qual sua tipagem inicial favorita?</p>
+<p class="negrito">Qual é sua tipagem inicial favorita?</p>
 
         <input type="radio" id="Fogo" name="Fogo" value="Fogo" />
         <label for="Fogo">fogo</label>
@@ -25,7 +46,7 @@
         <label for="agua">Água</label>
         <br/>
 
-<p>Quais são seus protagonistas favoritos de pokémon?</p>
+<p class="courier">Quais são seus protagonistas favoritos de pokémon?</p>
 
  <input type="checkbox" id="favoritos" name="protagonistas" value="pokémon">
 <label for="protagonistas">Red</label>
@@ -42,7 +63,7 @@
 <button type="submit">Enviar Formulário</button><br>
 
 <h2>Líderes de Ginásio</h2>
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; text-align: left;">
+<table border="1" id="tabela" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; text-align: left;">
     <thead>
         <tr>
             <th>Ginásio</th>
@@ -84,3 +105,5 @@
         </tr>
     </tbody>
 </table>
+</body>
+</html>

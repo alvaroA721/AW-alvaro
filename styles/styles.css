@@ -1,0 +1,29 @@
+/* seleçao de elemntos */
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+
+/* seleçao de id */
+#tabela {
+    text-align: center;
+    background-color: brown;
+}
+
+/* seleçao de classe */
+.negrito {
+    font-weight: bold;
+}
+
+/* seleçao de elementos (p) que usa uma determinada classe (courier) */
+p.courier{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2, h3 {
+    font-style: italic;
+}
+
+form button {
+    background-color: black;
+}
