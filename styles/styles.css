@@ -1,13 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    /* 8a716a-c2b8b2-197bbd-125e8a-204b57 */
+    --taupe: #8a716a
+    --silver:  #c2b8b2
+    --Bright Teal Blue: #197bbd
+    --Baltic Blue: #125E8A
+    --dark Teal: #204B57
+}
+
+body {
+    font-family: "Open sans", "Arial", sans-serif;
+}
 /* seleçao de elemntos */
 h2 {
     font-family: 'Courier New', Courier, monospace;
-    color: brown;
+    color: #125E8A;
 }
 
 /* seleçao de id */
 #tabela {
     text-align: center;
-    background-color: brown;
+    background-color: silver;
+    color: #125E8A;
 }
 
 /* seleçao de classe */
@@ -21,6 +36,7 @@ p.courier{
 }
 
 h1, h2, h3 {
+    font-family: "lobster", "Times New Roman", Times, serif;
     font-style: italic;
 }
 
