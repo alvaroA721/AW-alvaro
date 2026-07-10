@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    /* 8a716a-c2b8b2-197bbd-125e8a-204b57 */
+    --taupe: #8a716a
+    --silver:  #c2b8b2
+    --Bright Teal Blue: #197bbd
+    --Baltic Blue: #125E8A
+    --dark Teal: #204B57
+}
+
+/* css reset */
+* {
+    margin: 0; /* espaçamento externo */
+    padding: 0; /* espaçamento interno */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open sans", "Arial", sans-serif;
+    padding: 20px;
+}
+/* seleçao de elemntos */
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #125E8A;
+}
+
+/* seleçao de id */
+#tabela {
+    text-align: center;
+    background-color: silver;
+    color: #125E8A;
+}
+
+/* seleçao de classe */
+.negrito {
+    font-weight: bold;
+}
+
+/* seleçao de elementos (p) que usa uma determinada classe (courier) */
+p.courier{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2, h3 {
+    font-family: "lobster", "Times New Roman", Times, serif;
+    font-style: italic;
+}
+
+form button {
+    background-color: black;
+}
+
+img {
+     height: 200px; 
+    border-radius: 50%; 
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+#nav-sections{
+    margin-top: 15px;
+    /* top, right, bottom, left (sequencia das bordas) */
+}
+
+#nav-sections ul {
+    list-style-type: none;
+}
+
+#nav-sections li {
+    display: inline-block;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(silver);
+    background-color: rgb(112, 110, 110);
+    border-radius: 5px;
+}
+
+a:hover {
+    color:blueviolet;
+    box-shadow: 0 0 10px;
+}
+
+#nav-links {
+    ul {
+        list-style-type: none;
+    
+}
+
+    li {
+        display: inline-block;
+    }
+    a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(silver);
+    background-color: rgb(112, 110, 110);
+    border-radius: 5px;
+}
+
+a:hover {
+    color:rgb(30, 134, 175);
+    box-shadow: 0 0 10px;
+  }
+}
+
+.fonte-maior {
+    font-size: 48px;
+}
