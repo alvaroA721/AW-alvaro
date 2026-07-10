@@ -43,3 +43,20 @@ h1, h2, h3 {
 form button {
     background-color: black;
 }
+
+img {
+     height: 200px; 
+    border-radius: 50%; 
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+#nav-sections ul{
+    list-style-type: none;
+}
+
+#nav-secions li{
+    display: inline-block;
+}
