@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f6f8;
+  color: #333333;
+}
+
+header {
+  background-color: #006633;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+nav {
+  background-color: #1a4229;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 15px 10px;
+  margin: 0 0 20px 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  
+  padding: 8px 16px;
+  margin: 0 10px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #006633;
+  border-color: #ffffff;
+}
+
+#inicio, #programacao, #contato {
+  background-color: #ffffff;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.titulo-secao {
+  color: #006633;
+  
+  padding-top: 10px;
+  padding-bottom: 15px;
+  
+  margin-top: 10px;
+  margin-bottom: 25px;
+  
+  border-bottom: 3px solid #d9534f;
+  display: inline-block;
+}
+
+#inicio h2 {
+  color: #006633;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  border-bottom: 3px solid #d9534f;
+  display: inline-block;
+}
+
+.card-programa {
+  background-color: #fafafa;
+  
+  border: 1px solid #006633;
+  border-radius: 6px;
+  
+  padding: 15px 25px; 
+  
+  margin-bottom: 20px;
+  
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-programa:last-child {
+  margin-bottom: 0;
+}
+
+.card-programa h3 {
+  color: #006633;
+  margin-bottom: 8px;
+}
+
+.card-programa p {
+  margin-bottom: 5px;
+  font-size: 0.95rem;
+}
